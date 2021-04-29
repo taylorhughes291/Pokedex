@@ -36,3 +36,68 @@
     transform: rotate(360deg);
   }
 }
+
+div.App-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-transform: capitalize;
+}
+
+div.all-pokemon {
+  overflow-y: scroll;
+  height: 90vh;
+  width: 300px;
+}
+
+div.pokemon-info {
+  border: 1px solid;
+  width: 400px;
+}
+
+div.sprites {
+  
+}
+div.types {
+  display: flex;
+  justify-content: center;
+
+}
+
+div.types p {
+  padding: 0 15px;
+}
+
+div.stats {
+  display: flex;
+  justify-content: center;
+}
+
+div.stats p{
+  padding: 0 15px;
+}
+
+
+
+div.evolved {
+
+}
+div.habitat {
+
+}
+div.description {
+  text-transform: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: 2em;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+}
